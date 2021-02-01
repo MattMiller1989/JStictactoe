@@ -1,6 +1,10 @@
 const Gameboard= () => {
-    board=["","","",
+   var board=["","","",
            "","","",
            "","",""];
     
 }
+const Game= (Gameboard) => {
+    console.log(Gameboard.board);
+}
+Game(Gameboard());
