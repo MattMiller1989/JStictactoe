@@ -5,6 +5,8 @@ const Gameboard= () => {
     
 }
 const Game= (Gameboard) => {
-    console.log(Gameboard.board);
+    var dispBoard=document.getElementById("ticTacBoard").rows[0].length;
+    console.log(dispBoard);
 }
+
 Game(Gameboard());
